@@ -1,0 +1,35 @@
+h4 {
+    color: wheat;
+}
+.thumbnail {
+    
+	width: 260px;
+	height: auto;
+    padding: 10px;
+    background-color: lightblue;
+	float: left;
+	margin-right: 60px;
+      
+   background-color: lightseagreen; 
+   font-size: 14px;
+   font-weight: bold;
+   line-height: 1.3em;
+   border: 1px solid #fff;
+    
+    
+}
+
+.thumbnail img {
+    height: 200px;
+    width: 100%;
+}
+
+.thumbnail .caption {
+    height: 100px;
+    overflow: hidden;
+    padding: 0px;
+}
+
+strong{
+    color: orange;
+}

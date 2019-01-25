@@ -1,0 +1,13 @@
+<!-- Define the HTML template for FilmItemComponent here -->
+<div class="thumbnail">
+    
+	<img src="../../images/{{summary.id}}.jpg" alt="Description"/>
+    
+    
+    <h4><a [routerLink]="['/restaurants', summary.id]">{{ summary.title }}</a></h4>
+    <p>Average Price: <strong> £ {{ summary.price }}</strong></p>
+	<p>Address: {{ summary.address }}</p>
+	<osl-score [scores]="summary.score" ></osl-score>
+    
+   
+</div>

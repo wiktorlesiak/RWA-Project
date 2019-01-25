@@ -1,0 +1,12 @@
+  
+.footer{
+height: 50px;
+    text-align: center;
+}
+hr.style13 {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+    margin-left: 4%;
+    margin-right: 4%;
+}

@@ -1,0 +1,59 @@
+
+<div class="container" >
+
+    <!--Counties-->
+    <div class= "counties">
+        <h5>Counties</h5>
+        <hr class="style">
+        
+        
+        <a routerLink="/dublin"><img src="../../images/dublin.jpg" alt="flag" style="width: 180px"></a>
+        <a routerLink="/meath"><img src="../../images/meath.jpg" alt="flag" style="width: 180px"></a>
+        <a routerLink="/cork"><img src="../../images/cork.jpg" alt="flag" style="width: 180px"></a>
+        
+     
+     </div>  
+      
+   
+<!--Search Restautans-->
+     <div class= "searchrestaurant">
+        <h5>Search Restaurant</h5>
+        <hr class="style">
+         
+         <ul class="nav">
+           
+             Town:<button type = "submit" style="float:right" width="2px" class = "button">Submit</button>
+             
+             <li style="float:right" ><input type = "text" class = "form-control" placeholder = "Search"> </li>  
+        </ul>
+
+
+     </div>
+    
+  <!--Search Cousines-->  
+     <div class= "searchcousines">
+        <h5>Search Cousines</h5>
+        <hr class="style">
+        
+                
+        <ul>
+            <li><a href = "#">Bistro</a></li>
+            <li><a href = "#">Italian</a></li>
+            <li><a href = "#">Pizzeria</a></li>
+            <li><a href = "#">Vegetarian</a></li>
+        </ul>
+        
+     </div>
+    
+    <div class= "favrestaurants">
+        <h5>Our Favourite Restaurants</h5>
+        <hr class="style">
+          <div *ngFor="let s of summaries">
+        <osl-summary [summary]= "s"></osl-summary>
+        
+        </div>
+     </div>
+    
+</div>
+
+

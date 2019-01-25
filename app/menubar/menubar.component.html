@@ -1,0 +1,42 @@
+<nav class="navbar navbar-default" role="navigation">
+   <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+         <span class="sr-only">Toggle navigation</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+      </button>
+   </div>
+
+    
+    
+   <div class="collapse navbar-collapse  navbar-ex1-collapse">
+      <ul class="nav navbar-nav">
+         <li><a class ="navbar-brand" routerLink ="/">Food4U</a></li>
+          
+          <li class = "dropdown">
+            <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">
+               Counties 
+               <b class = "caret"></b>
+            </a>
+              
+         <ul class = "dropdown-menu">
+               <li><a routerLink="/dublin">Dublin</a></li>
+               <li><a routerLink="/meath">Meath</a></li>
+               <li><a routerLink="/cork">Cork</a></li>
+             </ul>
+              
+              </ul>
+<!--Search bar-->
+        <ul class="nav button">
+         <li><button type = "submit" class = "btn btn-default">Search</button></li>
+       </ul>  
+       
+    <ul class="nav search">
+          <li><input type = "text" class = "form-control" placeholder = "Search"></li>           
+      </ul>
+<!--Search bar-->     
+
+ 
+  </div>
+</nav>

@@ -1,0 +1,76 @@
+.container{
+	margin-bottom: 10px;
+	padding: 15px 50px 30px 50px;
+	height: auto;
+	background-color: #00B0ff;
+	color: white;
+    
+        /*stitched*/
+	border:1px solid #ffffff;
+	box-shadow: 0 0 0 8px #00B0ff;
+    /*end stitched*/
+    
+}
+
+.counties{
+    padding: 15px 15px 15px 15px;
+    float: left;
+    background-color: red;
+    min-height: 250px;
+    max-width: 1070px;
+	width:100%;
+    height: auto;
+/*stitched*/
+    padding: 20px;
+   margin: 10px;
+   background: #4682B4;
+   color: #fff;
+   font-size: 21px;
+   font-weight: bold;
+   line-height: 1.3em;
+   border: 1px solid #fff;
+   
+   box-shadow: 0 0 0 4px #4682B4, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+   font-weight: normal;
+     /*end stitched*/
+
+}
+
+
+
+
+
+hr.style{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.imag img{
+      width: 100%;
+     max-width: 100%;
+     
+    
+}
+
+.imag{
+    margin-bottom: 1%;
+    margin-top: 1%;
+   margin-left: 20%;
+    margin-right: 20%;
+}
+
+a {
+    color: black;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.form-control{
+    width: 180px;
+    height: 30px;
+}
